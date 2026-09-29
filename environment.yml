@@ -1,0 +1,17 @@
+name: learning-pytorch
+
+channels:
+  - defaults
+
+dependencies:
+  - python=3.12
+  - pip
+  - pip:
+      - torch
+      - torchvision
+      - numpy
+      - pandas
+      - matplotlib
+      - scikit-learn
+      - jupyter
+      - ipykernel
